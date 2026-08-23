@@ -1,0 +1,21 @@
+main section {
+	max-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	flex-wrap: nowrap;
+}
+
+main ul {
+	display: flex;
+	flex-direction: column;
+}
+
+main li {
+	margin: 2.5% 0;
+	padding: 2.5%;
+}
+
+main button {
+	margin: 0;
+}
