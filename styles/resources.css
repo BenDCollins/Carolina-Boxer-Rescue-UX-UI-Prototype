@@ -21,3 +21,7 @@ main li {
 main button {
 	margin: 0;
 }
+
+#happyTails p {
+	margin: 10%;
+}
