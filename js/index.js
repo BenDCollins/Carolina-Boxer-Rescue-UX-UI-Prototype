@@ -198,6 +198,26 @@ function hospiceLeft(){
 
 document.querySelector("#hospiceLeftButton").addEventListener("click", hospiceLeft);
 
+
+function sizeChecker (){
+	const secondaryButtons = document.querySelectorAll(".secondaryButton")
+	if (screenSize.matches) {
+		for (let i = 0; i < secondaryButtons.length; i++){
+			secondaryButtons[i].style.display = "none";
+		}
+	} else {
+		for (let i = 0; i < secondaryButtons.length; i++){
+			secondaryButtons[i].style.display = "block";
+		}
+	}
+}
+
+let screenSize = window.matchMedia("(max-width: 768px)");
+
+screenSize.addEventListener("change", sizeChecker);
+
+sizeChecker(screenSize);
+
 function buttonInstagram(){
 	window.open("https://www.instagram.com/carolinaboxerrescue/", "__blank")
 }

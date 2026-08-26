@@ -149,7 +149,7 @@ article div {
 }
 
 article img {
-	height: 100%;
+	width: 100%;
 	max-width: 20vw;
 	border-radius: 25px;
 }
@@ -222,13 +222,14 @@ button:active {
 }
 
 fieldset {
-	display: flex;
-	align-items: center;
+	width: fit-content;
+	flex-direction: column;
+	margin: auto;
 }
 
-input, textarea {
-	margin: 3vw auto 0;
-	height: 100%;
+input, textarea, label {
+	display: flex;
+	margin: 5% 10%;
 }
 
 footer {
@@ -286,8 +287,16 @@ footer button {
 	}
 	
 	body p {
-	padding: 10%;
-}
+		padding: 10%;
+	}
+	
+	article div {
+		height: 20vh;
+	}
+	
+	article img {
+		max-width: 30vw;
+	}
 	
 	footer {
 		display: flex;
