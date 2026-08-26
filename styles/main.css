@@ -20,6 +20,10 @@ nav {
 	padding: 1% 0;
 }
 
+#breadcrumb {
+	margin: 0 5%;
+}
+
 body > section {
 	margin: 0;
 	padding: 0;
@@ -246,8 +250,7 @@ footer {
 footer section {
 	display: flex;
 	flex-direction: column;
-	margin: 2.5%;
-	padding: 0;
+	width: 90%;
 }
 
 footer ul {
@@ -288,6 +291,7 @@ footer button {
 	
 	body p {
 		padding: 10%;
+		text-align: center;
 	}
 	
 	article div {
@@ -296,6 +300,16 @@ footer button {
 	
 	article img {
 		max-width: 30vw;
+	}
+	
+	#buttons {
+		display: flex;
+		flex-direction: column;
+		margin: 5%;
+	}
+
+	button {
+		font-size: 1em;
 	}
 	
 	footer {
