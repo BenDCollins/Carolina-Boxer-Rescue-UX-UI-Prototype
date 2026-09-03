@@ -199,7 +199,7 @@ function hospiceLeft(){
 document.querySelector("#hospiceLeftButton").addEventListener("click", hospiceLeft);
 
 
-function sizeChecker (){
+function sizeChecker(){
 	const secondaryButtons = document.querySelectorAll(".secondaryButton")
 	if (screenSize.matches) {
 		for (let i = 0; i < secondaryButtons.length; i++){
@@ -218,6 +218,20 @@ screenSize.addEventListener("change", sizeChecker);
 
 sizeChecker(screenSize);
 
+function dogDisplay(){
+	window.location.href = "dog.html"
+}
+
+function dogButtonCreate (){
+	dogButtons.forEach((dog) => {
+		dog.addEventListener("click", dogDisplay);
+	});
+}
+
+const dogButtons = document.querySelectorAll(".dog");
+
+dogButtonCreate();
+
 function buttonInstagram(){
 	window.open("https://www.instagram.com/carolinaboxerrescue/", "__blank")
 }
@@ -253,3 +267,15 @@ function nubHub(){
 }
 
 document.querySelector("#nubHub").addEventListener("click", nubHub);
+
+function transparency(){
+	window.open("https://app.candid.org/profile/7853101/carolina-boxer-rescue-inc-56-2279460?activeTab=5", "__blank")
+}
+
+document.querySelector("#transparency").addEventListener("click", transparency);
+
+function upTriangle(){
+	window.location.href = "#pageTop"
+}
+
+document.querySelector("#upTriangle").addEventListener("click", upTriangle);

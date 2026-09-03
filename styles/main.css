@@ -121,7 +121,7 @@ h1 {
 	font-family: Poppins, sans-serif;
 	font-size: 1.25em;
 	text-align: center;
-	padding: 1.25% 0;
+	padding: 0 0 1.25% 0;
 }
 
 h2 {
@@ -156,6 +156,7 @@ article img {
 	width: 100%;
 	max-width: 20vw;
 	border-radius: 25px;
+	margin: 1%;
 }
 
 .triangle {
@@ -163,6 +164,10 @@ article img {
 	height: 30%;
 	max-width: 10vw;
 	align-items: center;
+}
+
+div > img:hover, div > img:hover {
+	opacity: 50%;
 }
 
 body > section a {
@@ -238,8 +243,8 @@ input, textarea, label {
 
 footer {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto auto auto;
+	grid-template-rows: auto auto auto;
 	background-color: #93BFE6;
 	color: #233E75;
 	padding: 5%;
@@ -270,8 +275,12 @@ footer button {
 	padding: 2.5% 0;
 }
 
-#copyright {
-	grid-column: 1 / span 4;
+#transparency img {
+	width: 50%;
+}
+
+.pageBottom {
+	grid-column: 1 / span 5;
 	margin: 0 auto;
 }
 
@@ -294,19 +303,15 @@ footer button {
 		text-align: center;
 	}
 	
-	article div {
-		height: 20vh;
-	}
-	
-	article img {
-		max-width: 30vw;
-	}
-	
 	#buttons {
 		display: flex;
 		flex-direction: column;
 		margin: 5%;
 	}
+	
+	div {???
+		display: grid;???
+	}???
 
 	button {
 		font-size: 1em;

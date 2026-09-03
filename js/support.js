@@ -125,3 +125,9 @@ function parterShop(){
 }
 
 document.querySelector("#partnerShop").addEventListener("click", parterShop);
+
+function upTriangle(){
+	window.location.href = "#pageTop"
+}
+
+document.querySelector("#upTriangle").addEventListener("click", upTriangle);
