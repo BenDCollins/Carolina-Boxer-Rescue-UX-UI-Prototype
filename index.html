@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<nav>
+	<nav id="pageTop">
 		<ul>
 			<li><a href="index.html"><img src="images/logosnip.jpg"></a></li>
 			<li><a href="adopt.html">Adopt</a></li>
@@ -43,9 +43,9 @@
 				</h1>
 				<div>
 					<button class="invisiButton"><img class="triangle" src="images/lefttriangle.png" id="availableNowLeftButton"></button>
-					<img src="images/boxers/availableNow/Apollo.jpg" id="availableNowSlotOne">
-					<img src="images/boxers/availableNow/Aspen.jpg" id="availableNowSlotTwo" class="secondaryButton">
-					<img src="images/boxers/availableNow/Dexter.jpg" id="availableNowSlotThree" class="secondaryButton">
+					<button class="invisiButton dog"><img src="images/boxers/availableNow/Apollo.jpg" id="availableNowSlotOne">
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/availableNow/Aspen.jpg" id="availableNowSlotTwo"></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/availableNow/Dexter.jpg" id="availableNowSlotThree"></button>
 					<button class="invisiButton"><img class="triangle" src="images/righttriangle.png" id="availableNowRightButton"></button>
 				</div>
 			</section>
@@ -55,9 +55,9 @@
 				</h1>
 				<div>
 					<button class="invisiButton"><img class="triangle" src="images/lefttriangle.png" id="theGirlsLeftButton"></button>
-					<img src="images/boxers/theGirls/Beluga.jpeg" id="theGirlsSlotOne">
-					<img src="images/boxers/theGirls/Ella.jpg" id="theGirlsSlotTwo" class="secondaryButton">
-					<img src="images/boxers/theGirls/Jesse.jpg" id="theGirlsSlotThree" class="secondaryButton">
+					<button class="invisiButton dog"><img src="images/boxers/theGirls/Beluga.jpeg" id="theGirlsSlotOne"></button></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/theGirls/Ella.jpg" id="theGirlsSlotTwo"></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/theGirls/Jesse.jpg" id="theGirlsSlotThree"></button>
 					<button class="invisiButton"><img class="triangle" src="images/righttriangle.png" id="theGirlsRightButton"></button>
 				</div>
 			</section>
@@ -67,9 +67,9 @@
 				</h1>
 				<div>
 					<button class="invisiButton"><img class="triangle" src="images/lefttriangle.png" id="theBoysLeftButton"></button>
-					<img src="images/boxers/theBoys/Agent.jpg" id="theBoysSlotOne">
-					<img src="images/boxers/theBoys/Amari.jpg" id="theBoysSlotTwo" class="secondaryButton">
-					<img src="images/boxers/theBoys/Apollo.jpg" id="theBoysSlotThree" class="secondaryButton">
+					<button class="invisiButton dog"><img src="images/boxers/theBoys/Agent.jpg" id="theBoysSlotOne"></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/theBoys/Amari.jpg" id="theBoysSlotTwo"></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/theBoys/Apollo.jpg" id="theBoysSlotThree"></button>
 					<button class="invisiButton"><img class="triangle" src="images/righttriangle.png" id="theBoysRightButton"></button>
 				</div>
 			</section>
@@ -79,9 +79,9 @@
 				</h1>
 				<div>
 					<button class="invisiButton"><img class="triangle" src="images/lefttriangle.png" id="hospiceLeftButton"></button>
-					<img src="images/boxers/hospiceDogs/Nelson.jpg" id="hospiceSlotOne">
-					<img src="images/boxers/hospiceDogs/Russell.jpg" id="hospiceSlotTwo" class="secondaryButton">
-					<img src="images/boxers/hospiceDogs/Smokey.jpg" id="hospiceSlotThree" class="secondaryButton">
+					<button class="invisiButton dog"><img src="images/boxers/hospiceDogs/Nelson.jpg" id="hospiceSlotOne"></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/hospiceDogs/Russell.jpg" id="hospiceSlotTwo"></button>
+					<button class="invisiButton secondaryButton dog"><img src="images/boxers/hospiceDogs/Smokey.jpg" id="hospiceSlotThree"></button>
 					<button class="invisiButton"><img class="triangle" src="images/righttriangle.png" id="hospiceRightButton"></button>
 				</div>
 			</section>
@@ -111,16 +111,14 @@
 				Shop
 			</button>
 		</section>
-		<section>
-			<h1>
-				Certifications & Partnerships
-			</h1>
-		</section>
 	</main>
 	<footer>
 		<section>
+			<button id="transparency">
+				<img src="images/certifications/transparency.webp">
+			</button>
 			<button id="nubHub">
-				Nub Hub Login
+				Nub Hub
 			</button>
 			<button id="instagram">
 				Instagram
@@ -128,6 +126,14 @@
 			<button id="facebook">
 				Facebook
 			</button>
+		</section>
+		<section>
+			<ul>
+				<li>Carolina Boxer Rescue</li>
+				<li>7427 Matthews Mint Hill Rd</li>
+				<li>STE 105-167</li>
+				<li>Mint Hill, NC 28227</li>
+			</ul>
 		</section>
 		<section>
 			<ul>
@@ -143,17 +149,12 @@
 				Carolina Boxer Rescue is an all-volunteer 501 (c) (3) charitable organization formed to rescue, rehabilitate, and re-home unwanted and abandoned boxer dogs.
 			</p>
 		</section>
-		<section>
-			<ul>
-				<li>Carolina Boxer Rescue</li>
-				<li>7427 Matthews Mint Hill Rd</li>
-				<li>STE 105-167</li>
-				<li>Mint Hill, NC 28227</li>
-			</ul>
-		</section>
-		<p id="copyright">
-			Copyright 2023- Carolina Boxer Rescue
+		<p class="pageBottom">
+			Copyright 2023 - Carolina Boxer Rescue
 		</p>
+		<button class="invisiButton pageBottom" id="upTriangle">
+			<img src="images/uptriangle.png">
+		</button>
 	</footer>
 	<script src="js/index.js"></script>
 </body>
