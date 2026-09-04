@@ -4,17 +4,16 @@ main section {
 	flex-direction: column;
 	overflow-y: auto;
 	flex-wrap: nowrap;
+	margin-bottom: 5%;
 }
 
 main ul {
 	display: flex;
 	flex-direction: column;
-	overflow-y: auto;
-	flex-wrap: nowrap;
 }
 
 main li {
-	margin: 2.5% 0;
+	margin: 2.5%;
 	padding: 2.5%;
 }
 
@@ -22,6 +21,6 @@ main button {
 	margin: 0;
 }
 
-#happyTails p {
-	margin: 10%;
+#happyTailsScroller img, #memorialsScroller img {
+	border-radius: 25px;
 }
