@@ -7,16 +7,13 @@ button {
 	color: #233E75;
 }
 
-main ul {
-	gap: auto;
-}
-
 main li {
-	width: 80%;
+	width: 50%;
 	text-align: center;
 	display: block;
 	background-color: white;
 	color: #233E75;
 	border-radius: 25px;
+	padding: 2.5%;
 	margin: 2.5%;
 }

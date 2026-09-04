@@ -1,9 +1,10 @@
 main section {
-	max-height: 100vh;
+	max-height: 50vh;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
 	flex-wrap: nowrap;
+	margin-bottom: 5%;
 }
 
 main ul {
@@ -18,4 +19,8 @@ main li {
 
 main button {
 	margin: 0;
+}
+
+#contactScroller {
+	max-height: 80vh;
 }
