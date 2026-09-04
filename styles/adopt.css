@@ -3,14 +3,16 @@ section ul {
 }
 
 main section {
-	max-height: 100vh;
+	max-height: 50vh;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;
 	flex-wrap: nowrap;
+	margin-bottom: 5%;
 }
 
 main ul {
 	display: flex;
 	flex-direction: column;
 }
+
