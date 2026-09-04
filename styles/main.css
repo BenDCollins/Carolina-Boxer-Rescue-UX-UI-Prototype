@@ -220,8 +220,8 @@ fieldset {
 }
 
 input, textarea, label {
-	display: flex;
-	margin: 2.5%;
+	margin: 2.5% auto;
+	display: block;
 }
 
 footer {
@@ -244,6 +244,7 @@ footer section {
 footer ul {
 	flex-direction: column;
 	text-align: center;
+	padding: 0;
 }
 
 footer a {
