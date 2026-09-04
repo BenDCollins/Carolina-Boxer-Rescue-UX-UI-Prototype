@@ -39,7 +39,7 @@ body header {
 }
 
 header p {
-	padding: 0 0 1.25% 0;
+	padding: 0 0 2.5% 0;
 	margin: 0;
 }
 
@@ -213,8 +213,9 @@ button:active {
 }
 
 fieldset {
-	width: fit-content;
+	width: 50%;
 	flex-direction: column;
+	text-align: center;
 	margin: auto;
 }
 
@@ -255,6 +256,8 @@ footer p {
 
 footer button {
 	padding: 2.5% 0;
+	background-color: #233E75;
+	color: white;
 }
 
 #transparency img {
