@@ -8,7 +8,7 @@ button {
 }
 
 main li {
-	width: 50%;
+	width: 90%;
 	text-align: center;
 	display: block;
 	background-color: white;
@@ -16,4 +16,8 @@ main li {
 	border-radius: 25px;
 	padding: 2.5%;
 	margin: 2.5%;
+}
+
+section p {
+	padding: 5% 0;
 }
