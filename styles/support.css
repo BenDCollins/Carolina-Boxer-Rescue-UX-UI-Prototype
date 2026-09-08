@@ -1,5 +1,6 @@
 section ul {
 	flex-direction: column;
+	padding: 0;
 }
 
 main section {

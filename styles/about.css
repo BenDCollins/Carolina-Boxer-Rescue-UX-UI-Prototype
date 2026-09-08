@@ -10,6 +10,7 @@ main section {
 main ul {
 	display: flex;
 	flex-direction: column;
+	padding: 0;
 }
 
 main li {
