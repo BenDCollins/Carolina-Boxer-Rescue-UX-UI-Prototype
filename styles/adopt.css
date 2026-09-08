@@ -1,9 +1,10 @@
 section ul {
 	flex-direction: column;
+	padding: 0;
 }
 
 main section {
-	max-height: 50vh;
+	max-height: 70vh;
 	display: flex;
 	flex-direction: column;
 	overflow-y: auto;

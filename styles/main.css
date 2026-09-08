@@ -94,6 +94,12 @@ main {
 	margin: 0;
 }
 
+body {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+
 section nav {
 	display: flex;
 	margin: 0;
@@ -271,7 +277,11 @@ footer button {
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { 
+
+	main {
+		padding: 5% 15%;
+	}
 
 	nav ul {
 		flex-direction: column;
@@ -289,6 +299,10 @@ footer button {
 	
 	footer a, footer li, footer p {
 		font-size: 1.5em;
+	}
+	
+	footer li p {
+		font-size: 1em;
 	}
 	
 	nav img {
