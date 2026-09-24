@@ -1,4 +1,5 @@
 "use strict";
+export {};
 function button1() {
     window.location.href = "adopt.html";
 }
