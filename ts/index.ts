@@ -1,4 +1,5 @@
 "use strict";
+export {};
 
 function button1(): void {
 	window.location.href = "adopt.html";
@@ -132,7 +133,7 @@ if(buttonGirlsRight != null){
 	buttonGirlsRight.addEventListener("click", theGirlsRight);
 }
 
-function theGirlsLeft(){
+function theGirlsLeft(): void {
 	theGirlsIndex += (theGirlsImages.length - 1);
 	theGirlsIndex % theGirlsImages.length;
 	for (let i = 0; i < 3; i++){
@@ -302,7 +303,7 @@ if(buttonInstagramObject != null){
 	buttonInstagramObject.addEventListener("click", buttonInstagram);
 }
 
-function buttonFacebook(){
+function buttonFacebook(): void {
 	window.open("https://www.facebook.com/savetheboxers/", "__blank");
 }
 
