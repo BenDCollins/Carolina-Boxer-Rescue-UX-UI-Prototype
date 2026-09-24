@@ -45,7 +45,7 @@ if (impact2024 != null) {
 function report2023() {
     window.open("https://drive.google.com/file/d/1xMYQ2Ch31HP2nO_kkUjgZn1XWx1SbHDC/view", "__blank");
 }
-const impact2023 = document.querySelector("#impact2025");
+const impact2023 = document.querySelector("#impact2023");
 if (impact2023 != null) {
     impact2023.addEventListener("click", report2023);
 }
